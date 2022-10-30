@@ -1,9 +1,31 @@
 :root {
   --main-color: #ffffff;
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-btn: "Montserrat", sans-serif;
 }
 .hero {
   background-image: url(bg.png);
   text-align: center;
-  padding: 250px 150px;
+  padding: 276px 20px;
   color: var(--main-color);
+  margin: 0 auto;
+}
+h1,
+h2,
+.text {
+  font-family: var(--font-family-main);
+}
+h2 {
+  font-size: 24px;
+}
+h1 {
+  font-size: 72px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 300;
+}
+.button {
+  font-family: var(--font-family-btn);
+  font-size: 14px;
 }
